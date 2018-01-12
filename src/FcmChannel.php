@@ -49,7 +49,7 @@ class FcmChannel
         if (count($tokens) == 1) {
             // Do not use multicast if there is only one recipient
             $message->setTo($tokens[0]);
-            $this->sendToFcm($message);
+            return $this->sendToFcm($message);
         } else {
             // Use multicast because there are multiple recipients
             $partialTokens = array_chunk($tokens, self::MAX_TOKEN_PER_REQUEST, false);
@@ -63,7 +63,7 @@ class FcmChannel
     private function sendToFcm($message)
     {
         try {
-            $this->client->request('POST', '/fcm/send', [
+            return $this->client->request('POST', '/fcm/send', [
                 'body' => $message->toJson(),
             ]);
         } catch (RequestException $requestException) {
