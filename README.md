@@ -53,6 +53,10 @@ Once you've registered and set up your prroject, add the API key to your configu
 You can now send notifications via FCM by creating an `FcmNotification` and an `FcmMessages`:
 
 ```php
+use NotificationChannels\Fcm\FcmNotification;
+use NotificationChannels\Fcm\FcmMessage;
+use NotificationChannels\Fcm\FcmChannel;
+
 class AccountActivated extends Notification
 {
     public function via($notifiable)
