@@ -1,5 +1,5 @@
 # Package Moved
-This package has moved to the Laravel notification channels project. This reposiotry will no longer be maintained. To switch, please see the "Migrating" section below. 
+This package has moved to the Laravel notification channels project. This repository will no longer be maintained. To switch, please see the "Migrating" section below. 
 
 https://github.com/laravel-notification-channels/fcm
 
@@ -28,7 +28,7 @@ to the new package name:
 [![StyleCI](https://styleci.io/repos/91098630/shield)](https://styleci.io/repos/91098630)
 [![SensioLabsInsight](https://img.shields.io/sensiolabs/i/621d780f-fdb7-479d-8fb2-683cbbc3ee4c.svg?style=flat-square)](https://insight.sensiolabs.com/projects/621d780f-fdb7-479d-8fb2-683cbbc3ee4c)
 [![Quality Score](https://img.shields.io/scrutinizer/g/CoreProc/fcm.svg?style=flat-square)](https://scrutinizer-ci.com/g/CoreProc/fcm)
-[![Total Downloads](https://img.shields.io/packagist/dt/coreproc/laravel-notification-channel-fcm.svg?style=flat-square)](https://packagist.org/packages/coreproc/laravel-notification-channel-fcm
+[![Total Downloads](https://img.shields.io/packagist/dt/coreproc/laravel-notification-channel-fcm.svg?style=flat-square)](https://packagist.org/packages/coreproc/laravel-notification-channel-fcm)
 
 
 ~This package makes it easy to send notifications using [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/) (FCM) with Laravel 5.3, 5.4, and 5.5.~
